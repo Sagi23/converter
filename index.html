@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>All In One Converter</title>
+    <link rel="stylesheet" href="./scss/style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="grid">
+        <h1>All In One Converter</h1>
+        <div class="temp-card card">
+          <h3 id="t">Temperature Converter</h3>
+          <form action="">
+            <p>From</p>
+            <select name="" class="select" id="from-temp-option">
+              <option value="celcius">Celcius</option>
+              <option value="farenhim">Fahrenheit</option>
+              <option value="kelvin">Kelvin</option>
+            </select>
+            <br />
+            <input
+              type="number"
+              class="temp-input user-input"
+              placeholder="Enter number..."
+            />
+            <p>To</p>
+            <select name="" class="select" id="to-temp-option">
+              <option value="celcius">Celcius</option>
+              <option value="farenhim" selected>Fahrenheit</option>
+              <option value="kelvin">Kelvin</option>
+            </select>
+            <br />
+            <button class="temp-convort-btn">Convert</button>
+            <div><p class="temp-output"></p></div>
+          </form>
+        </div>
+        <div class="mass-card card">
+          <h3>Mass Converter</h3>
+          <form action="">
+            <p>From</p>
+            <select name="" class="select" id="from-mass-option">
+              <option value="kilograms">Kilograms</option>
+              <option value="grams">Grams</option>
+              <option value="ounces">Ounces</option>
+              <option value="pounds">Pounds</option>
+            </select>
+            <br />
+            <input
+              type="number"
+              class="mass-input user-input"
+              placeholder="Enter number..."
+            />
+            <p>To</p>
+            <select name="" class="select" id="to-mass-option">
+              <option value="kilograms">Kilograms</option>
+              <option value="grams" selected>Grams</option>
+              <option value="ounces">Ounces</option>
+              <option value="pounds">Pounds</option>
+            </select>
+            <br />
+            <button class="mass-convort-btn">Convert</button>
+            <div><p class="mass-output"></p></div>
+          </form>
+        </div>
+        <div class="length-card card">
+          <h3>Length Converter</h3>
+          <form action="">
+            <p>From</p>
+            <select name="" class="select" id="from-length-option">
+              <option value="meters">Meters</option>
+              <option value="centimeters">Centimeters</option>
+              <option value="inches">Inches</option>
+              <option value="miles">Miles</option>
+              <option value="feet">Feet</option>
+            </select>
+            <br />
+            <input
+              type="number"
+              class="length-input user-input"
+              placeholder="Enter number..."
+            />
+            <p>To</p>
+            <select name="" class="select" id="to-length-option">
+              <option value="meters">Meters</option>
+              <option value="centimeters" selected>Centimeters</option>
+              <option value="inches">Inches</option>
+              <option value="miles">Miles</option>
+              <option value="feet">Feet</option>
+            </select>
+            <br />
+            <button class="length-convort-btn">Convert</button>
+            <div><p class="length-output"></p></div>
+          </form>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <p>
+        Made By Sagi Twig Check Out My
+        <a href="https://github.com/Sagi23" target="_blank">Github</a>
+      </p>
+    </footer>
+    <script src="./scripts/index.js"></script>
+  </body>
+</html>
