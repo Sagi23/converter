@@ -1,4 +1,4 @@
-### Description
+### Description:
 
 Project that converts tempature, mass and length.  
 The project is responsive to all device sizes.
@@ -27,10 +27,10 @@ https://allinoneconverter.netlify.app/
 
 ![mockup](https://user-images.githubusercontent.com/73761063/98443196-8d60ee80-2112-11eb-87a3-da814369c515.png)
 
-### The desktop version:
+### The desktop version(on last update improved the look):
 
 ![ezgif com-gif-maker](https://user-images.githubusercontent.com/73761063/98443309-2b54b900-2113-11eb-972b-f57593fe16ff.gif)
 
-### The mobile version:
+### The mobile version(on last update improved the look):
 
 ![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/73761063/98443312-2db71300-2113-11eb-9bdf-c390a6c69746.gif)
